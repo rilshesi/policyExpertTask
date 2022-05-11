@@ -1,0 +1,104 @@
+package pageObjects;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LandingPage3 {
+	
+	public WebDriver driver;
+	
+	private By address = By.xpath("//input[@id='property_address']");
+	private By addressList = By.xpath("//ul[@role='listbox']/li");
+	private By page3Yes1 = By.xpath("//div[@id='correspondence_address_ui_only']/*[@aria-label='Yes']");
+	private By propertyType = By.xpath("//div[@id='property_type']//*[@aria-label='House']");
+	private By propertyDes = By.xpath("//button[contains(text(),'Detached house')]");
+	private By properAge = By.xpath("//input[@id='age_of_property.year']");
+	private By bedrooms = By.xpath("//div[@data-testid='question'][6]/div/div[1]/div[1]");
+	private By bedroomNum = By.xpath("//div[@data-testid='question'][6]/div/div[1]/div[1]/div/ul/li");
+	private By bath = By.cssSelector("#downshift-305-toggle-button");
+	private By bathNum = By.cssSelector("#downshift-305-menu li");
+	private By mainResidentYes = By.xpath("//div[@id='property_use_q']/*[@aria-label='Yes']");
+	private By proptyOnwer = By.xpath("//button[contains(text(),'Yes, I own the property outright')]");
+	private By proptyOccupier = By.xpath("//button[contains(text(),'You as sole occupier')]");
+	
+	
+	public LandingPage3(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+		
+		this.driver=driver;
+		
+	}
+	
+	
+	
+	
+	
+	public WebElement getAddress()
+	{
+		return driver.findElement(address);
+	}
+	
+	public List<WebElement> getaddressList()
+	{
+		return driver.findElements(addressList);
+	}
+	
+	public WebElement getPage3Yes1()
+	{
+		return driver.findElement(page3Yes1);
+	}
+	
+	public WebElement getpropertyType()
+	{
+		return driver.findElement(propertyType);
+	}
+	
+	public WebElement getpropertyDes()
+	{
+		return driver.findElement(propertyDes);
+	}
+	
+	public WebElement getproperAge()
+	{
+		return driver.findElement(properAge);
+	}
+	
+	public WebElement getbedrooms()
+	{
+		return driver.findElement(bedrooms);
+	}
+	
+	public List<WebElement> getbedroomNum()
+	{
+		return driver.findElements(bedroomNum);
+	}
+	
+	public WebElement getbath()
+	{
+		return driver.findElement(bath);
+	}
+	
+	public List<WebElement> getbathNum()
+	{
+		return driver.findElements(bathNum);
+	}
+	
+	public WebElement getmainResidentYes()
+	{
+		return driver.findElement(mainResidentYes);
+	}
+	
+	public WebElement getproptyOnwer()
+	{
+		return driver.findElement(proptyOnwer);
+	}
+	
+	public WebElement getproptyOccupier()
+	{
+		return driver.findElement(proptyOccupier);
+	}
+
+}

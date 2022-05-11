@@ -1,0 +1,13 @@
+package uk.co.policyexpert.insurance;
+
+import org.testng.annotations.Test;
+
+public class AppTest 
+{
+ 
+    @Test
+    public void titleEntry()
+    {
+        
+    }
+}

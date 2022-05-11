@@ -1,0 +1,34 @@
+package uk.co.policyexpert.insurance;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import pageObjects.LandingPage4;
+import resources.base;
+
+public class AboutYouPage4 extends base {
+	
+	public WebDriver driver;
+	
+
+	
+	@Test
+	public void aboutPg4()
+	
+	
+	{
+		AboutYouPage1_2 l = new AboutYouPage1_2();
+		LandingPage4 l4 = new LandingPage4(driver);
+		
+		
+		l4.getquestion4().click();
+		
+		l4.getnext4().click();
+		
+	
+		
+	}
+
+	
+
+}

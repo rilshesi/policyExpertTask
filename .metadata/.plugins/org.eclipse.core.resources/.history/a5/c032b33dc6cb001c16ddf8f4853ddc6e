@@ -1,0 +1,66 @@
+package pageObjects;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LandingPage {
+
+	
+	public WebDriver driver;
+	
+	private By title=By.xpath("//div[@id='title']");
+	private By title1= By.xpath("//div[@id='title']//*[@aria-label='Mr']");
+	private By signin=By.cssSelector("a[href*='sign_in']");
+	private By NavBar=By.cssSelector(".nav.navbar-nav.navbar-right>li>a");
+	private By centretitle2 = By.cssSelector("div[class*='video-banner'] h3");
+	
+	
+	
+	
+	public LandingPage(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+		
+		this.driver=driver;
+		
+	}
+
+
+
+
+	public LoginPage getLogin()
+	{
+		 driver.findElement(signin).click();
+		 LoginPage lp=new LoginPage(driver);   //Login page is linked with Landing page so it can have access to LoginPage Object
+		 return lp;
+		 
+		 
+		 
+		 
+	}
+	
+	public List<WebElement> getTitle()
+	{
+		return driver.findElements(title);
+	}
+	
+	public WebElement getTitle1()
+	{
+		return driver.findElement(title1);
+	}
+	public WebElement getNavigationBar()
+	{
+		return driver.findElement(NavBar);
+	}
+	
+	
+	public WebElement getcentretitle2() {
+		
+		return driver.findElement(centretitle2);
+	}
+	
+	
+	
+}
