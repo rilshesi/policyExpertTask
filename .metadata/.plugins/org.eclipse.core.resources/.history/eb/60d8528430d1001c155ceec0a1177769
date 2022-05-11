@@ -6,7 +6,7 @@ framework integrated with testNg Maven surefire plugin.
 
 Step to run>
 - Open CMD on your computer
-- point cmd to frame work location: cd (filelocation\HomeFormTest)
+- point cmd to frame work location: cd..(filelocation\HomeFormTest)
 - compile frame work: mvn compile
 - run using: mvn test
 
