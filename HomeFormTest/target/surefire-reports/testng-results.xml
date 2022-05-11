@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56074" started-at="2022-05-11T13:24:21Z" finished-at="2022-05-11T13:25:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="56074" started-at="2022-05-11T13:24:21Z" finished-at="2022-05-11T13:25:17Z">
+      <class name="uk.co.policyexpert.insurance.AboutYouPage1_2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="initialize" is-config="true" duration-ms="4449" started-at="2022-05-11T14:24:21Z" finished-at="2022-05-11T14:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="titleEntry()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="titleEntry" duration-ms="737" started-at="2022-05-11T14:24:25Z" finished-at="2022-05-11T14:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleEntry -->
+        <test-method status="PASS" signature="nameEntry()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="nameEntry" duration-ms="347" started-at="2022-05-11T14:24:26Z" finished-at="2022-05-11T14:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameEntry -->
+        <test-method status="PASS" signature="dateEntry()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="dateEntry" duration-ms="366" started-at="2022-05-11T14:24:26Z" finished-at="2022-05-11T14:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateEntry -->
+        <test-method status="PASS" signature="maritalSatus()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="maritalSatus" duration-ms="427" started-at="2022-05-11T14:24:27Z" finished-at="2022-05-11T14:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maritalSatus -->
+        <test-method status="PASS" signature="occuaption()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="occuaption" duration-ms="3457" started-at="2022-05-11T14:24:27Z" finished-at="2022-05-11T14:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- occuaption -->
+        <test-method status="PASS" signature="others()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="others" duration-ms="1900" started-at="2022-05-11T14:24:31Z" finished-at="2022-05-11T14:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- others -->
+        <test-method status="PASS" signature="AboutYouPage3()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="AboutYouPage3" duration-ms="23307" started-at="2022-05-11T14:24:33Z" finished-at="2022-05-11T14:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutYouPage3 -->
+        <test-method status="PASS" signature="underage()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="underage" duration-ms="9119" started-at="2022-05-11T14:24:56Z" finished-at="2022-05-11T14:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- underage -->
+        <test-method status="PASS" signature="aboutPg4()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="aboutPg4" duration-ms="978" started-at="2022-05-11T14:25:05Z" finished-at="2022-05-11T14:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutPg4 -->
+        <test-method status="PASS" signature="aboutPg5()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="aboutPg5" duration-ms="5531" started-at="2022-05-11T14:25:06Z" finished-at="2022-05-11T14:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutPg5 -->
+        <test-method status="PASS" signature="aboutPg6()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="aboutPg6" duration-ms="699" started-at="2022-05-11T14:25:11Z" finished-at="2022-05-11T14:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutPg6 -->
+        <test-method status="PASS" signature="aboutPg7()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="aboutPg7" duration-ms="1487" started-at="2022-05-11T14:25:12Z" finished-at="2022-05-11T14:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutPg7 -->
+        <test-method status="PASS" signature="aboutPg8()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="aboutPg8" duration-ms="2710" started-at="2022-05-11T14:25:14Z" finished-at="2022-05-11T14:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutPg8 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:uk.co.policyexpert.insurance.AboutYouPage1_2@75f32542]" name="quit" duration-ms="538" started-at="2022-05-11T14:25:16Z" finished-at="2022-05-11T14:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- uk.co.policyexpert.insurance.AboutYouPage1_2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
