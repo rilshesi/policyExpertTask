@@ -6,7 +6,6 @@ framework integrated with testNg Maven surefire plugin.
 
 Step to run>
 - Open CMD on your computer
-- clone frame work from git: git clone https://github.com/rilshesi/policyExpertTask.git
 - point cmd to frame work location: cd (filelocation\HomeFormTest)
 - compile frame work: mvn compile
 - run using: mvn test
